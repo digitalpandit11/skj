@@ -1,0 +1,6 @@
+[08-Nov-2022 04:38:56 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home4/avykewmy/public_html/shri_krishna_jewellers/ganpati_jewellery/ganapati_modak.php on line 72
+[08-Nov-2022 04:38:56 America/Boise] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home4/avykewmy/public_html/shri_krishna_jewellers/ganpati_jewellery/ganapati_modak.php:74
+Stack trace:
+#0 /home4/avykewmy/public_html/shri_krishna_jewellers/ganpati_jewellery/ganapati_modak.php(74): mysqli_query(Object(mysqli), 'select * from p...')
+#1 {main}
+  thrown in /home4/avykewmy/public_html/shri_krishna_jewellers/ganpati_jewellery/ganapati_modak.php on line 74
