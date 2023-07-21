@@ -96,7 +96,7 @@ $row=mysqli_fetch_all($prj);
 
       
 
-<marquee style="background: #213b52; color: #ffffff;" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><b><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?></b></marquee>
+<!-- <marquee style="background: #213b52; color: #ffffff;" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><b><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?><?php echo $data; echo $data1;?></b></marquee> -->
 
 
         
