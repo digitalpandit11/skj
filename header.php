@@ -71,19 +71,19 @@ error_reporting();
 
   <?php
 
-      $servername = "localhost";
-      $username = "avykewmy_3574_cg";  //avykewmy_3574_cg
-      $password = "Digitalindia@12345";  //Digitalindia@12345
-      $dbname = "avykewmy_shri_krishna_admin_panel";
+//       $servername = "localhost";
+//       $username = "avykewmy_3574_cg";  //avykewmy_3574_cg
+//       $password = "Digitalindia@12345";  //Digitalindia@12345
+//       $dbname = "avykewmy_shri_krishna_admin_panel";
 
-      // Create connection
-      $conn = new mysqli($servername, $username, $password, $dbname);
-      // Check connection
-      $prj= mysqli_query($conn,"select * from product_master") or die(mysqli_error($conn));
+//       // Create connection
+//       $conn = new mysqli($servername, $username, $password, $dbname);
+//       // Check connection
+//       $prj= mysqli_query($conn,"select * from product_master") or die(mysqli_error($conn));
 
-      //$result=mysqli_query($DBconnection,$query);
-$row=mysqli_fetch_all($prj);
-// print_r($row);
+//       //$result=mysqli_query($DBconnection,$query);
+// $row=mysqli_fetch_all($prj);
+// // print_r($row);
 // die();
 
 ?>
@@ -91,7 +91,7 @@ $row=mysqli_fetch_all($prj);
   <!-- TradingView Widget BEGIN -->
   
   <!-- ======= Header ======= -->
-<?php $data = "";
+<!-- <?php $data = "";
       $data1 = "";
       foreach($row as $rec)
       {
@@ -100,7 +100,7 @@ $row=mysqli_fetch_all($prj);
 
         $silver_orn = "Silver Ornament's";
         $data .= 'Date'. ' -&nbsp; '. $final_date. '<span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</span>'.'Gold - 18c'. ' -&nbsp;₹ '. $rec['2']. '<span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</span>'. 'Gold - 22c'. ' -&nbsp;₹ '. $rec['3']. '<span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</span>'. 'Gold - 24c'. ' -&nbsp;₹ '. $rec['4']. '<span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</span>'. $silver_orn. ' -&nbsp;₹ '. $rec['5']. '<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>';
-      }?>
+      }?> -->
   <header id="header1">
     <div class="container d-flex" style="margin-top: -17px;">
 
