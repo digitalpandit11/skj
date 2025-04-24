@@ -3,347 +3,346 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero1" style="padding: 0px 0;">
 
-<style>
-  .profile-img {
-width: 100%;
-position: relative;
-}
+      <style>
+      .profile-img {
+          width: 100%;
+          position: relative;
+      }
 
-.img-responsive {
-max-width:100%;
-height:auto;
-}
+      .img-responsive {
+          max-width: 100%;
+          height: auto;
+      }
 
-.img-circle {
-position:absolute;
-    z-index:99;
-    left:40%;
-    
-    
-    bottom: -42%;
-
-}
-
-.contentsssss {
-  position: absolute;
-  bottom: 0;
-  width: 45%;
-  padding-bottom: 200px;
-  padding-left: 20px;
-}
+      .img-circle {
+          position: absolute;
+          z-index: 99;
+          left: 40%;
 
 
-@media screen and (max-width: 600px) and (min-width: 100px){
-  .img-circle {
-    
-    z-index:99;
-    left:0%;
-    
-    
-    bottom: -442%;
-    
-    }
-}
+          bottom: -42%;
+
+      }
+
+      .contentsssss {
+          position: absolute;
+          bottom: 0;
+          width: 45%;
+          padding-bottom: 200px;
+          padding-left: 20px;
+      }
 
 
-@media screen and (max-width: 600px) and (min-width: 100px){
-  .contentsssss {
-    position: absolute;
-    bottom: 10%;
-    width: 100%;
-    padding-bottom: 271px;
-    padding-left: 10px;
-    
-    }
-}
+      @media screen and (max-width: 600px) and (min-width: 100px) {
+          .img-circle {
 
-#myCarousel .carousel-item .mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed
-}
+              z-index: 99;
+              left: 0%;
 
-#myCarousel h4 {
-    font-size: 50px;
-    margin-bottom: 15px;
-    color: #FFF;
-    line-height: 100%;
-    letter-spacing: 0.5px;
-    font-weight: 600
-}
 
-#myCarousel p {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #d5d5d5
-}
+              bottom: -442%;
 
-#myCarousel .carousel-item a {
-    background: #FF0000;
-    font-size: 14px;
-    color: #FFF;
-    padding: 13px 32px;
-    display: inline-block
-}
+          }
+      }
 
-#myCarousel .carousel-item a:hover {
-    background: #FF0000;
-    text-decoration: none
-}
 
-#myCarousel .carousel-item h4 {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft
-}
+      @media screen and (max-width: 600px) and (min-width: 100px) {
+          .contentsssss {
+              position: absolute;
+              bottom: 10%;
+              width: 100%;
+              padding-bottom: 271px;
+              padding-left: 10px;
 
-#myCarousel .carousel-item p {
-    -webkit-animation-name: slideInRight;
-    animation-name: slideInRight
-}
+          }
+      }
 
-#myCarousel .carousel-item a {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
-}
+      #myCarousel .carousel-item .mask {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-attachment: fixed
+      }
 
-#myCarousel .carousel-item .mask img {
-    -webkit-animation-name: slideInRight;
-    animation-name: slideInRight;
-    display: block;
-    height: auto;
-    max-width: 100%
-}
+      #myCarousel h4 {
+          font-size: 50px;
+          margin-bottom: 15px;
+          color: #FFF;
+          line-height: 100%;
+          letter-spacing: 0.5px;
+          font-weight: 600
+      }
 
-#myCarousel h4,
-#myCarousel p,
-#myCarousel a,
-#myCarousel .carousel-item .mask img {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1.2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    
-}
+      #myCarousel p {
+          font-size: 18px;
+          margin-bottom: 15px;
+          color: #d5d5d5
+      }
 
-#myCarousel .container {
-    max-width: 1430px
-}
+      #myCarousel .carousel-item a {
+          background: #FF0000;
+          font-size: 14px;
+          color: #FFF;
+          padding: 13px 32px;
+          display: inline-block
+      }
 
-#myCarousel .carousel-item {
-    height: 100%;
-    min-height: 550px
-}
+      #myCarousel .carousel-item a:hover {
+          background: #FF0000;
+          text-decoration: none
+      }
 
-#myCarousel {
-    position: relative;
-    z-index: 1;
-    background-image: url("assets/img/gold-jewellery-homepage-banner-background_new1.webp");
-    background-size: cover
-}
+      #myCarousel .carousel-item h4 {
+          -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft
+      }
 
-.carousel-control-next,
-.carousel-control-prev {
-    height: 40px;
-    width: 40px;
-    padding: 12px;
-    top: 50%;
-    bottom: auto;
-    transform: translateY(-50%);
-    background-color: #fdab25;
-}
+      #myCarousel .carousel-item p {
+          -webkit-animation-name: slideInRight;
+          animation-name: slideInRight
+      }
 
-.carousel-item {
-    position: relative;
-    display: none;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 100%;
-    transition: -webkit-transform .6s ease;
-    transition: transform .6s ease;
-    transition: transform .6s ease, -webkit-transform .6s ease;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-perspective: 1000px;
-    perspective: 1000px
-}
+      #myCarousel .carousel-item a {
+          -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp
+      }
 
-.carousel-fade .carousel-item {
-    opacity: 0;
-    -webkit-transition-duration: .6s;
-    transition-duration: .6s;
-    -webkit-transition-property: opacity;
-    transition-property: opacity
-}
+      #myCarousel .carousel-item .mask img {
+          -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+          display: block;
+          height: auto;
+          max-width: 100%
+      }
 
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right,
-.carousel-fade .carousel-item.active {
-    opacity: 1
-}
+      #myCarousel h4,
+      #myCarousel p,
+      #myCarousel a,
+      #myCarousel .carousel-item .mask img {
+          -webkit-animation-duration: 1s;
+          animation-duration: 1.2s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
 
-.carousel-fade .carousel-item-left.active,
-.carousel-fade .carousel-item-right.active {
-    opacity: 0
-}
+      }
 
-.carousel-fade .carousel-item-left.active,
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item-prev.active,
-.carousel-fade .carousel-item.active {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0)
-}
+      #myCarousel .container {
+          max-width: 1430px
+      }
 
-@supports (transform-style:preserve-3d) {
+      #myCarousel .carousel-item {
+          height: 100%;
+          min-height: 550px
+      }
 
-    .carousel-fade .carousel-item-left.active,
-    .carousel-fade .carousel-item-next,
-    .carousel-fade .carousel-item-prev,
-    .carousel-fade .carousel-item-prev.active,
-    .carousel-fade .carousel-item.active {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+      #myCarousel {
+          position: relative;
+          z-index: 1;
+          background-image: url("assets/img/gold-jewellery-homepage-banner-background_new1.webp");
+          background-size: cover
+      }
 
-.carousel-fade .carousel-item-left.active,
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item-prev.active,
-.carousel-fade .carousel-item.active {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
-}
+      .carousel-control-next,
+      .carousel-control-prev {
+          height: 40px;
+          width: 40px;
+          padding: 12px;
+          top: 50%;
+          bottom: auto;
+          transform: translateY(-50%);
+          background-color: #fdab25;
+      }
 
-@-webkit-keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0)
-    }
+      .carousel-item {
+          position: relative;
+          display: none;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: 100%;
+          transition: -webkit-transform .6s ease;
+          transition: transform .6s ease;
+          transition: transform .6s ease, -webkit-transform .6s ease;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          -webkit-perspective: 1000px;
+          perspective: 1000px
+      }
 
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+      .carousel-fade .carousel-item {
+          opacity: 0;
+          -webkit-transition-duration: .6s;
+          transition-duration: .6s;
+          -webkit-transition-property: opacity;
+          transition-property: opacity
+      }
 
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(-100%, 0, 0);
-        transform: translate3d(-100%, 0, 0)
-    }
+      .carousel-fade .carousel-item-next.carousel-item-left,
+      .carousel-fade .carousel-item-prev.carousel-item-right,
+      .carousel-fade .carousel-item.active {
+          opacity: 1
+      }
 
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+      .carousel-fade .carousel-item-left.active,
+      .carousel-fade .carousel-item-right.active {
+          opacity: 0
+      }
 
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft
-}
+      .carousel-fade .carousel-item-left.active,
+      .carousel-fade .carousel-item-next,
+      .carousel-fade .carousel-item-prev,
+      .carousel-fade .carousel-item-prev.active,
+      .carousel-fade .carousel-item.active {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0)
+      }
 
-@-webkit-keyframes fadeInUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0)
-    }
+      @supports (transform-style:preserve-3d) {
 
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+          .carousel-fade .carousel-item-left.active,
+          .carousel-fade .carousel-item-next,
+          .carousel-fade .carousel-item-prev,
+          .carousel-fade .carousel-item-prev.active,
+          .carousel-fade .carousel-item.active {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0)
-    }
+      .carousel-fade .carousel-item-left.active,
+      .carousel-fade .carousel-item-next,
+      .carousel-fade .carousel-item-prev,
+      .carousel-fade .carousel-item-prev.active,
+      .carousel-fade .carousel-item.active {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0)
+      }
 
-    to {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+      @-webkit-keyframes fadeInLeft {
+          from {
+              opacity: 0;
+              -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0)
+          }
 
-.fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
-}
+          to {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
 
-@-webkit-keyframes slideInRight {
-    from {
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-        visibility: visible
-    }
+      @keyframes fadeInLeft {
+          from {
+              opacity: 0;
+              -webkit-transform: translate3d(-100%, 0, 0);
+              transform: translate3d(-100%, 0, 0)
+          }
 
-    to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+          to {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
 
-@keyframes slideInRight {
-    from {
-        -webkit-transform: translate3d(100%, 0, 0);
-        transform: translate3d(100%, 0, 0);
-        visibility: visible
-    }
+      .fadeInLeft {
+          -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft
+      }
 
-    to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0)
-    }
-}
+      @-webkit-keyframes fadeInUp {
+          from {
+              opacity: 0;
+              -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0)
+          }
 
-.slideInRight {
-    -webkit-animation-name: slideInRight;
-    animation-name: slideInRight
-}
+          to {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
 
-.para-graph-slider{
-  text-align: center;
-  margin-left: 50px;
-}
+      @keyframes fadeInUp {
+          from {
+              opacity: 0;
+              -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100%, 0)
+          }
 
-@media screen and (max-width: 600px) and (min-width: 100px){
-  .para-graph-slider {
-    
-    text-align: center;
-    margin-left: 0px;
-    
-    }
-}
+          to {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
 
-@media screen and (max-width: 600px) and (min-width: 100px){
-    .portfolio-wrap{
-    width: 70%;
-    height: 400px;
-    position: relative;
-    left: 50px;
-  }
-}
+      .fadeInUp {
+          -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp
+      }
 
-</style>
+      @-webkit-keyframes slideInRight {
+          from {
+              -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+              visibility: visible
+          }
 
-<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          to {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
+
+      @keyframes slideInRight {
+          from {
+              -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+              visibility: visible
+          }
+
+          to {
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0)
+          }
+      }
+
+      .slideInRight {
+          -webkit-animation-name: slideInRight;
+          animation-name: slideInRight
+      }
+
+      .para-graph-slider {
+          text-align: center;
+          margin-left: 50px;
+      }
+
+      @media screen and (max-width: 600px) and (min-width: 100px) {
+          .para-graph-slider {
+
+              text-align: center;
+              margin-left: 0px;
+
+          }
+      }
+
+      @media screen and (max-width: 600px) and (min-width: 100px) {
+          .portfolio-wrap {
+              width: 70%;
+              height: 400px;
+              position: relative;
+              left: 50px;
+          }
+      }
+      </style>
+
+      <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     
     <div class="carousel-item active">
@@ -392,11 +391,11 @@ position:absolute;
   </div>
    <img src="assets/img/gold-jewellery-design.png" class="img-circleaaaa">
 </div> -->
-<br><br><br><br><br>
-<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+      <br><br><br><br><br>
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
 
-    <!-- <div class="carousel-item active" style="background-image: url('assets/img/skg_web_diwali_Background.webp');">
+              <!-- <div class="carousel-item active" style="background-image: url('assets/img/skg_web_diwali_Background.webp');">
             <div class="mask flex-center">
                 <div class="container">
                     <div class="row align-items-center">
@@ -410,132 +409,180 @@ position:absolute;
             </div>
       </div> -->
 
-        <div class="carousel-item active">
-            <div class="mask flex-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 col-12 order-md-1 order-1" style="margin-top: 10px; margin-bottom: 70px;">
-                            <center><h4 style="color: #fdab25; ">Gold Jewellery</h4></center>
-                            <p style="color: #fdab25;" class="para-graph-slider"><b>"Be Ready for Every Occasion, Because You are Precious to Us!"</b></p> <br> <center><a href="gold_jewellery.php" style="background-color: #fdab25;">Check The Varieties</a></center>
-                        </div>
-                        <div class="col-md-7 col-12 order-md-2 order-2"><img src="assets/img/gold-jewellery-banner-design_1.webp" class="mx-auto" alt="slide" style="margin-top: -84px;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+              <div class="carousel-item active">
+                  <div class="mask flex-center">
+                      <div class="container">
+                          <div class="row align-items-center">
+                              <div class="col-md-5 col-12 order-md-1 order-1"
+                                  style="margin-top: 10px; margin-bottom: 70px;">
+                                  <center>
+                                      <h4 style="color: #fdab25; ">Gold Jewellery</h4>
+                                  </center>
+                                  <p style="color: #fdab25;" class="para-graph-slider"><b>"Be Ready for Every Occasion,
+                                          Because You are Precious to Us!"</b></p> <br>
+                                  <center><a href="gold_jewellery.php" style="background-color: #fdab25;">Check The
+                                          Varieties</a></center>
+                              </div>
+                              <div class="col-md-7 col-12 order-md-2 order-2"><img
+                                      src="assets/img/gold-jewellery-banner-design_1.webp" class="mx-auto" alt="slide"
+                                      style="margin-top: -84px;"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-        <div class="carousel-item" style="background-image: url('assets/img/silver-jewellery-homepage-banner-background_new1.webp');">
-            <div class="mask flex-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 col-12 order-md-1 order-1" style="margin-top: 10px; margin-bottom: 70px;">
-                            <center><h4 style="color: #ffffff;">Silver Jewellery</h4></center>
-                            <p style="color: #ffffff;" class="para-graph-slider"><b>"Fashion and Style in Every Thing We Own, Jewellery Crafted with Care and Love!"</b></p> <br> <center><a href="silver_jewellery.php" style="background-color: #fdab25;">Check The Varieties</a></center>
-                        </div>
-                        <div class="col-md-7 col-12 order-md-2 order-2"><img src="assets/img/silver-jewellery-banner-design.webp" class="mx-auto" alt="slide" style="margin-top: -84px;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="carousel-item" style="background-image: url('assets/img/ganapati-jewellery-homepage-banner-background.webp');">
-            <div class="mask flex-center">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 col-12 order-md-1 order-1" style="margin-top: 10px; margin-bottom: 70px;">
-                            <center><h4 style="color: #ffffff;">Ganpati Jewellery</h4></center>
-                            <p style="color: #ffffff;" class="para-graph-slider"><b>"Artistic Ganpati Jewellery Accessories, With Exclusive Design And Collection."</b></p> <br> <center><a href="ganpati_jewellery.php" style="background-color: #fdab25;">Check The Varieties</a></center>
-                        </div>
-                        <div class="col-md-7 col-12 order-md-2 order-2"><img src="assets/img/skj-ganapati-idol.png" class="mx-auto" alt="slide" style="margin-top: -84px;"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
-</div>
+              <div class="carousel-item"
+                  style="background-image: url('assets/img/silver-jewellery-homepage-banner-background_new1.webp');">
+                  <div class="mask flex-center">
+                      <div class="container">
+                          <div class="row align-items-center">
+                              <div class="col-md-5 col-12 order-md-1 order-1"
+                                  style="margin-top: 10px; margin-bottom: 70px;">
+                                  <center>
+                                      <h4 style="color: #ffffff;">Silver Jewellery</h4>
+                                  </center>
+                                  <p style="color: #ffffff;" class="para-graph-slider"><b>"Fashion and Style in Every
+                                          Thing We Own, Jewellery Crafted with Care and Love!"</b></p> <br>
+                                  <center><a href="silver_jewellery.php" style="background-color: #fdab25;">Check The
+                                          Varieties</a></center>
+                              </div>
+                              <div class="col-md-7 col-12 order-md-2 order-2"><img
+                                      src="assets/img/silver-jewellery-banner-design.webp" class="mx-auto" alt="slide"
+                                      style="margin-top: -84px;"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item"
+                  style="background-image: url('assets/img/ganapati-jewellery-homepage-banner-background.webp');">
+                  <div class="mask flex-center">
+                      <div class="container">
+                          <div class="row align-items-center">
+                              <div class="col-md-5 col-12 order-md-1 order-1"
+                                  style="margin-top: 10px; margin-bottom: 70px;">
+                                  <center>
+                                      <h4 style="color: #ffffff;">Ganpati Jewellery</h4>
+                                  </center>
+                                  <p style="color: #ffffff;" class="para-graph-slider"><b>"Artistic Ganpati Jewellery
+                                          Accessories, With Exclusive Design And Collection."</b></p> <br>
+                                  <center><a href="ganpati_jewellery.php" style="background-color: #fdab25;">Check The
+                                          Varieties</a></center>
+                              </div>
+                              <div class="col-md-7 col-12 order-md-2 order-2"><img
+                                      src="assets/img/skj-ganapati-idol.png" class="mx-auto" alt="slide"
+                                      style="margin-top: -84px;"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div> <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span
+                  class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span>
+          </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span
+                  class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+      </div>
 
 
-   
+
 
   </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
+      <!-- ======= Clients Section ======= -->
+      <section id="clients" class="clients section-bg">
+          <div class="container">
 
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+              <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/kangan.webp" class="img-fluid" alt="" data-aos="flip-right">
-            </div>
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/kangan.webp" class="img-fluid" alt="" data-aos="flip-right">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/anklet.webp" class="img-fluid" alt="" data-aos="flip-right"
+                              data-aos-delay="100">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/haar.webp" class="img-fluid" alt="" data-aos="flip-right"
+                              data-aos-delay="200">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/jhumka.webp" class="img-fluid" alt="" data-aos="flip-right"
+                              data-aos-delay="300">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/haar2.webp" class="img-fluid" alt="" data-aos="flip-right"
+                              data-aos-delay="400">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-2 col-md-4 col-6">
+                      <div class="client-logo">
+                          <img src="assets/img/home_icon/kade.webp" class="img-fluid" alt="" data-aos="flip-right"
+                              data-aos-delay="500">
+                      </div>
+                  </div>
+
+
+
+              </div>
+
+
+              <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+
+
+              </div>
+
           </div>
+      </section><!-- End Clients Section -->
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/anklet.webp" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="100">
-            </div>
-          </div>
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about section-bg">
+          <div class="container">
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/haar.webp" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="200">
-            </div>
-          </div>
+              <div class="row">
+                  <div
+                      class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+                  </div>
+                  <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
+                      <div class="content d-flex flex-column justify-content-center">
+                          <h3 data-aos="fade-in" data-aos-delay="100">About Us</h3>
+                          <p data-aos="fade-in">
+                              The Story of <b>Shri Krishna Jewellers</b> is no Fairy Tale, But Epically scripted by
+                              <b>Three Generations Of
+                                  Vedpathak Clan</b>. All this started way back in 19 th Century by Our Grandfather
+                              <b>Late. Narayan Shankar
+                                  Vedpathak</b>. He started his Journey on 26 th June 1929. Initially there was no
+                              momentum in Business due to many other reasons including early independence situations and
+                              extended family, and this led <b>Late. Rajvilas Narayan Vedpathak</b> to leave home along
+                              with family business and work with escape at Solapur. (1970-1983).
+                          </p>
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/jhumka.webp" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="300">
-            </div>
-          </div>
+                          <p><br>Late. Rajvilas Narayan Vedpathak Re-Discovered his passion in Jewellery and started
+                              <b>Pushparaj Jewellers</b> At Mangalmurti Park, Kothrud On 2 nd May 1993. This Store then
+                              relocated At Amrut Society, Gujrat Colony, Kothrud - As <b>Shri Krishna Jewellers</b> On
+                              14 th June 1997.</p><br>
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/haar2.webp" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="400">
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/home_icon/kade.webp" class="img-fluid" alt="" data-aos="flip-right" data-aos-delay="500">
-            </div>
-          </div>
-
-          
-
-        </div>
-
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
-      <div class="container">
-
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-          <div class="col-xl-7 pl-0 pl-lg-5 pr-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3 data-aos="fade-in" data-aos-delay="100">About Us</h3>
-              <p data-aos="fade-in">
-                The Story of <b>Shri Krishna Jewellers</b> is no Fairy Tale, But Epically scripted by <b>Three Generations Of
-                Vedpathak Clan</b>. All this started way back in 19 th Century by Our Grandfather <b>Late. Narayan Shankar
-                Vedpathak</b>. He started his Journey on 26 th June 1929. Initially there was no momentum in Business due to many other reasons including early independence situations and extended family, and this led <b>Late. Rajvilas Narayan Vedpathak</b> to leave home along with family business and work with escape at Solapur. (1970-1983).
-              </p>
-
-              <p><br>Late. Rajvilas Narayan Vedpathak Re-Discovered his passion in Jewellery and started <b>Pushparaj Jewellers</b> At Mangalmurti Park, Kothrud On 2 nd May 1993. This Store then relocated At Amrut Society, Gujrat Colony, Kothrud - As <b>Shri Krishna Jewellers</b> On 14 th June 1997.</p><br>
-
-              <p><br><b>Mr. Rohit Rajvilas Vedpathak</b> Fully Engaged with Clan in Year 2001 And Flourished Business with his Innovative Ideas and Helped Gaining Unbeatable Trust Of 9000+ Satisfied Customers. While Quality Products and Transparent Processing helps us in Building Customer Trust, What Also Sets Us above from Crowed Is Wide Variety of Gold &amp; Silver Necklaces, Bangles, Chains, Ear-rings, Mangalsutra, Rings, Gemstones, and Gold-Silver Coins Etc.</p>
-              <!-- <div class="row">
+                          <p><br><b>Mr. Rohit Rajvilas Vedpathak</b> Fully Engaged with Clan in Year 2001 And Flourished
+                              Business with his Innovative Ideas and Helped Gaining Unbeatable Trust Of 9000+ Satisfied
+                              Customers. While Quality Products and Transparent Processing helps us in Building Customer
+                              Trust, What Also Sets Us above from Crowed Is Wide Variety of Gold &amp; Silver Necklaces,
+                              Bangles, Chains, Ear-rings, Mangalsutra, Rings, Gemstones, and Gold-Silver Coins Etc.</p>
+                          <!-- <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>
                   <h4><a href="#">Corporis voluptates sit</a></h4>
@@ -557,15 +604,15 @@ position:absolute;
                   <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
                 </div>
               </div> -->
-            </div><!-- End .content-->
+                      </div><!-- End .content-->
+                  </div>
+              </div>
+
           </div>
-        </div>
+      </section><!-- End About Section -->
 
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services section-bg">
+      <!-- ======= Services Section ======= -->
+      <!-- <section id="services" class="services section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -627,10 +674,11 @@ position:absolute;
 
       </div>
     </section>
- -->    <!-- End Services Section -->
+ -->
+      <!-- End Services Section -->
 
-    <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features section-bg">
+      <!-- ======= Features Section ======= -->
+      <!-- <section id="features" class="features section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -708,66 +756,80 @@ position:absolute;
 
       </div>
     </section> -->
-    <!-- End Features Section -->
+      <!-- End Features Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+          <div class="container">
 
-        <div class="section-title">
-          <h2 data-aos="fade-in">Jewelleries We Offer</h2>
-          <p data-aos="fade-in"></p>
-        </div>
+              <div class="section-title">
+                  <h2 data-aos="fade-in">Jewelleries We Offer</h2>
+                  <p data-aos="fade-in"></p>
+              </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-gold">Gold Jewellery</li>
-              <li data-filter=".filter-silver">Silver Jewellery</li>
-              <li data-filter=".filter-ganpati">Ganpati Jewellery</li>
-              <!-- <li data-filter=".filter-ganpati">Ganpati Jewellery</li> -->
-            </ul>
-          </div>
-        </div>
+              <div class="row">
+                  <div class="col-lg-12">
+                      <ul id="portfolio-flters">
+                          <li data-filter="*" class="filter-active">All</li>
+                          <li data-filter=".filter-gold">Gold Jewellery</li>
+                          <li data-filter=".filter-silver">Silver Jewellery</li>
+                          <li data-filter=".filter-ganpati">Ganpati Jewellery</li>
+                          <!-- <li data-filter=".filter-ganpati">Ganpati Jewellery</li> -->
+                      </ul>
+                  </div>
+              </div>
 
-        <div class="row portfolio-container" data-aos="fade-up">
+              <div class="row portfolio-container" data-aos="fade-up">
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/gents/gentsring2.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/gents/gentsring2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/gents/gentsring2.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/gents/gentsring2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/gents_rings.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/gents_rings.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/gents_rings.php" style="font-size: 16px;"><h4>Gents Rings</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/gents_rings.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Gents Rings</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/gents_rings.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/gents_rings.php" style="font-size: 16px;">
+                                  <h4>Gents Rings</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/gents_rings.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Gents Rings</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/womens/womensring3.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/womens/womensring3.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/womens/womensring3.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/womens/womensring3.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/womens_rings.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/womens_rings.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/womens_rings.php" style="font-size: 16px;"><h4>Womens Rings</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/womens_rings.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Womens Rings</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/womens_rings.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/womens_rings.php" style="font-size: 16px;">
+                                  <h4>Womens Rings</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/womens_rings.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Womens Rings</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          
 
-          <!-- <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+
+                  <!-- <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
             <div class="portfolio-wrap">
               <img src="assets/img/ganpati/ganapati_idol.webp" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -783,142 +845,198 @@ position:absolute;
             <a href="#" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Ganpati</b></p></center></a>
           </div> -->
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/pendal/pendal.webp" class="img-fluid" alt="" style="border-radius: 5px;">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/pendal/pendal.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/pendal/pendal.webp" class="img-fluid" alt="" style="border-radius: 5px;">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/pendal/pendal.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/pendal.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/pendal.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/pendal.php" style="font-size: 16px;"><h4>Pendal</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/pendal.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Pendal</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/pendal.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/pendal.php" style="font-size: 16px;">
+                                  <h4>Pendal</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/pendal.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Pendal</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ear_chain/ear_chain.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/ear_chain/ear_chain.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ear_chain/ear_chain.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/ear_chain/ear_chain.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/ear_chain.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/ear_chain.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/ear_chain.php" style="font-size: 16px;"><h4>Ear Chain</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/ear_chain.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ear Chain</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/ear_chain.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/ear_chain.php" style="font-size: 16px;">
+                                  <h4>Ear Chain</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/ear_chain.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ear Chain</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/goldchain/goldchain.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/goldchain/goldchain.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/goldchain/goldchain.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/goldchain/goldchain.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/chain.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/chain.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/chain.php" style="font-size: 16px;"><h4>Chain</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/chain.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Chain</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/chain.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/chain.php" style="font-size: 16px;">
+                                  <h4>Chain</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/chain.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Chain</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/braceletgold/braceletgold.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/braceletgold/braceletgold.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/braceletgold/braceletgold.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/braceletgold/braceletgold.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/bracelet.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/bracelet.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/bracelet.php" style="font-size: 16px;"><h4>Bracelet</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/bracelet.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Bracelet</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/bracelet.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/bracelet.php" style="font-size: 16px;">
+                                  <h4>Bracelet</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/bracelet.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Bracelet</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/short_mangalsutra/short_mangalsutra.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/short_mangalsutra/short_mangalsutra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/short_mangalsutra/short_mangalsutra.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/short_mangalsutra/short_mangalsutra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/short_mangalsutra.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/short_mangalsutra.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/short_mangalsutra.php" style="font-size: 16px;"><h4>Short Mangalsutra</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/short_mangalsutra.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Short Mangalsutra</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/short_mangalsutra.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/short_mangalsutra.php" style="font-size: 16px;">
+                                  <h4>Short Mangalsutra</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/short_mangalsutra.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Short Mangalsutra</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/long_mangalsutra/long_mangalsutra.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/long_mangalsutra/long_mangalsutra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/long_mangalsutra/long_mangalsutra.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/long_mangalsutra/long_mangalsutra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/long_mangalsutra.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/long_mangalsutra.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/long_mangalsutra.php" style="font-size: 16px;"><h4>Long Mangalsutra</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/long_mangalsutra.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Long Mangalsutra</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/long_mangalsutra.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/long_mangalsutra.php" style="font-size: 16px;">
+                                  <h4>Long Mangalsutra</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/long_mangalsutra.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Long Mangalsutra</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/jhumka/jhumka.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/jhumka/jhumka.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/jhumka/jhumka.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/jhumka/jhumka.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/jhumka.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/jhumka.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/jhumka.php" style="font-size: 16px;"><h4>Jhumka</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/jhumka.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Jhumka</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/jhumka.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/jhumka.php" style="font-size: 16px;">
+                                  <h4>Jhumka</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/jhumka.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Jhumka</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/thushi/thushi.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/thushi/thushi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/thushi/thushi.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/thushi/thushi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/thushi.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/thushi.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/thushi.php" style="font-size: 16px;"><h4>Thushi</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/thushi.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Thushi</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/thushi.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/thushi.php" style="font-size: 16px;">
+                                  <h4>Thushi</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/thushi.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Thushi</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
 
@@ -929,531 +1047,741 @@ position:absolute;
 
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/baal-ring/baal-ring.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/baal-ring/baal-ring.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/baal-ring/baal-ring.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/baal-ring/baal-ring.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/baal_ring.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/baal_ring.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/baal_ring.php" style="font-size: 16px;"><h4>Baal Ring</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/baal_ring.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Baal Ring</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/baal_ring.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/baal_ring.php" style="font-size: 16px;">
+                                  <h4>Baal Ring</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/baal_ring.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Baal Ring</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/baccha-tops/baccha-tops.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/baccha-tops/baccha-tops.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/baccha-tops/baccha-tops.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/baccha-tops/baccha-tops.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/baccha_tops.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/baccha_tops.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/baccha_tops.php" style="font-size: 16px;"><h4>Baccha Tops</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/baccha_tops.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Baccha Tops</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/baccha_tops.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/baccha_tops.php" style="font-size: 16px;">
+                                  <h4>Baccha Tops</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/baccha_tops.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Baccha Tops</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/necklace/necklace.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/necklace/necklace.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/necklace/necklace.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/necklace/necklace.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/necklace.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/necklace.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/necklace.php" style="font-size: 16px;"><h4>Necklace</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/necklace.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Necklace</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/necklace.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/necklace.php" style="font-size: 16px;">
+                                  <h4>Necklace</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/necklace.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Necklace</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/kadli/kadli.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/kadli/kadli.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/kadli/kadli.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/kadli/kadli.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/kadli.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/kadli.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/kadli.php" style="font-size: 16px;"><h4>Kadli</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/kadli.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Kadli</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/kadli.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/kadli.php" style="font-size: 16px;">
+                                  <h4>Kadli</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/kadli.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Kadli</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/dool/dool.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dool/dool.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/dool/dool.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dool/dool.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dool.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="gold_jewellery/dool.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/dool.php" style="font-size: 16px;"><h4>Dool</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/dool.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Dool</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/dool.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/dool.php" style="font-size: 16px;">
+                                  <h4>Dool</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/dool.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Dool</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/dorle/converted-gold_dorle.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/dorle/converted-gold_dorle.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dorle.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/dorle.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/dorle.php" style="font-size: 16px;"><h4>Dorle</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/dorle.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Dorle</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/dorle.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/dorle.php" style="font-size: 16px;">
+                                  <h4>Dorle</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/dorle.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Dorle</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/rani_haar/rani_haar.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/rani_haar/rani_haar.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dorle.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/rani_haar.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/rani_haar.php" style="font-size: 16px;"><h4>Rani Haar</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/rani_haar.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Rani Haar</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/rani_haar.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/rani_haar.php" style="font-size: 16px;">
+                                  <h4>Rani Haar</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/rani_haar.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Rani Haar</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/couple_ring/couple_ring.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/couple_ring/couple_ring.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dorle.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/couple_ring.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/couple_ring.php" style="font-size: 16px;"><h4>Couple Ring</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/couple_ring.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Couple Ring</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/couple_ring.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/couple_ring.php" style="font-size: 16px;">
+                                  <h4>Couple Ring</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/couple_ring.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Couple Ring</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/goldcastchainpendant/goldcastchainpendant.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/goldcastchainpendant/goldcastchainpendant.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dorle.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/goldcastchainpendant.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/goldcastchainpendant.php" style="font-size: 16px;"><h4>Cast Chain Pendant</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/goldcastchainpendant.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Cast Chain Pendant</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/goldcastchainpendant.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/goldcastchainpendant.php" style="font-size: 16px;">
+                                  <h4>Cast Chain Pendant</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/goldcastchainpendant.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Cast Chain Pendant</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
-            <div class="portfolio-wrap">
-              <img src="assets/img/antique_haar/Antique_Haar.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-gold">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/antique_haar/Antique_Haar.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/dorle/dorle2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="gold_jewellery/dorle.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="gold_jewellery/antique_haar.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="gold_jewellery/antique_haar.php" style="font-size: 16px;"><h4>Antique_Haar</h4></a>
-                <p>Gold Jewellery</p>
-              </div>
-            </div>
-            <a href="gold_jewellery/antique_haar.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Antique_Haar</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="gold_jewellery/antique_haar.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="gold_jewellery/antique_haar.php" style="font-size: 16px;">
+                                  <h4>Antique_Haar</h4>
+                              </a>
+                              <p>Gold Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="gold_jewellery/antique_haar.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Antique_Haar</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/jodavi/jodavi.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/jodavi/jodavi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/jodavi/jodavi.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/jodavi/jodavi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/jodavi.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/jodavi.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/jodavi.php" style="font-size: 16px;"><h4>Jodvi</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/jodavi.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Jodvi</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/jodavi.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/jodavi.php" style="font-size: 16px;">
+                                  <h4>Jodvi</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/jodavi.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Jodvi</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/painjan/painjan.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/painjan/painjan.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/painjan/painjan.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/painjan/painjan.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/painjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/painjan.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/painjan.php" style="font-size: 16px;"><h4>Painjan</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/painjan.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Painjan</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/painjan.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/painjan.php" style="font-size: 16px;">
+                                  <h4>Painjan</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/painjan.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Painjan</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/fancy_jodvi/fancy_jodvi.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/fancy_jodvi/fancy_jodvi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/fancy_jodvi/fancy_jodvi.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/fancy_jodvi/fancy_jodvi.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/fancy_jodvi.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/fancy_jodvi.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/fancy_jodvi.php" style="font-size: 16px;"><h4>Fancy Jodvi</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/fancy_jodvi.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Fancy Jodvi</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/fancy_jodvi.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/fancy_jodvi.php" style="font-size: 16px;">
+                                  <h4>Fancy Jodvi</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/fancy_jodvi.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Fancy Jodvi</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_glass/silver_glass.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_glass/silver_glass.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_glass/silver_glass.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_glass/silver_glass.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_glass.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_glass.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_glass.php" style="font-size: 16px;"><h4>Silver Glass</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_glass.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Glass</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_glass.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_glass.php" style="font-size: 16px;">
+                                  <h4>Silver Glass</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_glass.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Glass</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_loti/silver_loti.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_loti/silver_loti.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_loti/silver_loti.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_loti/silver_loti.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_loti.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_loti.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_loti.php" style="font-size: 16px;"><h4>Silver Loti</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_loti.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Loti</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_loti.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_loti.php" style="font-size: 16px;">
+                                  <h4>Silver Loti</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_loti.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Loti</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_phulpatra/silver_phulpatra.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_phulpatra/silver_phulpatra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_phulpatra/silver_phulpatra.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_phulpatra/silver_phulpatra.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_phulpatra.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_phulpatra.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_phulpatra.php" style="font-size: 16px;"><h4>Silver Phulpatra</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_phulpatra.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Phulpatra</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_phulpatra.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_phulpatra.php" style="font-size: 16px;">
+                                  <h4>Silver Phulpatra</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_phulpatra.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Phulpatra</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_plate/silver_plate.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_plate/silver_plate.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_plate/silver_plate.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_plate/silver_plate.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_plate.php" title="More Details"><i class="icofont-link"></i></a> -->
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_plate.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_plate.php" style="font-size: 16px;"><h4>Silver Plate</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_plate.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Plate</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_plate.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_plate.php" style="font-size: 16px;">
+                                  <h4>Silver Plate</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_plate.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Plate</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
 
 
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_bracelet/silver_bracelet.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_bracelet/silver_bracelet.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_bracelet/silver_bracelet.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_bracelet/silver_bracelet.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_bracelet.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_bracelet.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_bracelet.php" style="font-size: 16px;"><h4>Silver Bracelet</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_bracelet.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Bracelet</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_bracelet.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_bracelet.php" style="font-size: 16px;">
+                                  <h4>Silver Bracelet</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_bracelet.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Bracelet</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_dish/silver_dish.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_dish/silver_dish.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_dish/silver_dish.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_dish/silver_dish.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_dish.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_dish.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_dish.php" style="font-size: 16px;"><h4>Silver Dish</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_dish.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Dish</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_dish.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_dish.php" style="font-size: 16px;">
+                                  <h4>Silver Dish</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_dish.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Dish</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_kade/silver_kade.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_kade/silver_kade.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_kade/silver_kade.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_kade/silver_kade.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_kade.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_kade.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_kade.php" style="font-size: 16px;"><h4>Silver Kade</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_kade.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Kade</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_kade.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_kade.php" style="font-size: 16px;">
+                                  <h4>Silver Kade</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_kade.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Kade</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_niranjan/silver_niranjan2.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_niranjan/silver_niranjan2.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_niranjan.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_niranjan.php" style="font-size: 16px;"><h4>Silver Niranjan</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_niranjan.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Niranjan</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_niranjan.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_niranjan.php" style="font-size: 16px;">
+                                  <h4>Silver Niranjan</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_niranjan.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Niranjan</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_chain/silver-chain.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_chain/silver-chain.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_chain.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_chain.php" style="font-size: 16px;"><h4>Silver Chain</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_chain.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Chain</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_chain.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_chain.php" style="font-size: 16px;">
+                                  <h4>Silver Chain</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_chain.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Chain</b></p>
+                          </center>
+                      </a>
+                  </div>
 
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
-            <div class="portfolio-wrap">
-              <img src="assets/img/silver_gulabdani/silver-gulabdani.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-silver">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/silver_gulabdani/silver-gulabdani.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="silver_jewellery/silver_gulabdani.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="silver_jewellery/silver_gulabdani.php" style="font-size: 16px;"><h4>Silver Gulabdani</h4></a>
-                <p>Silver Jewellery</p>
-              </div>
-            </div>
-            <a href="silver_jewellery/silver_gulabdani.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Silver Gulabdani</b></p></center></a>
-          </div>
-          
-          
-          
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_haar/ganapati-haar.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                              <p style="color: #ffffff;"><a href="silver_jewellery/silver_gulabdani.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="silver_jewellery/silver_gulabdani.php" style="font-size: 16px;">
+                                  <h4>Silver Gulabdani</h4>
+                              </a>
+                              <p>Silver Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="silver_jewellery/silver_gulabdani.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Silver Gulabdani</b></p>
+                          </center>
+                      </a>
+                  </div>
+
+
+
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_haar/ganapati-haar.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_haar.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_haar.php" style="font-size: 16px;"><h4>Ganapati Haar</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_haar.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Haar</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_haar.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_haar.php" style="font-size: 16px;">
+                                  <h4>Ganapati Haar</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_haar.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Haar</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_kan/ganapati-kan.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_kan/ganapati-kan.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_kan.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_kan.php" style="font-size: 16px;"><h4>Ganapati Kan</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_kan.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Kan</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_kan.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_kan.php" style="font-size: 16px;">
+                                  <h4>Ganapati Kan</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_kan.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Kan</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_ladu/ganapati-ladu.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_ladu/ganapati-ladu.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_ladu.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_ladu.php" style="font-size: 16px;"><h4>Ganapati Ladu</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_ladu.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Ladu</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_ladu.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_ladu.php" style="font-size: 16px;">
+                                  <h4>Ganapati Ladu</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_ladu.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Ladu</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_modak/ganapati-modak.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_modak/ganapati-modak.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_modak.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_modak.php" style="font-size: 16px;"><h4>Ganapati Modak</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_modak.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Modak</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_modak.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_modak.php" style="font-size: 16px;">
+                                  <h4>Ganapati Modak</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_modak.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Modak</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_mukut/ganapati-mukut.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_mukut/ganapati-mukut.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_mukut.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_mukut.php" style="font-size: 16px;"><h4>Ganapati Mukut</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_mukut.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Mukut</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_mukut.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_mukut.php" style="font-size: 16px;">
+                                  <h4>Ganapati Mukut</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_mukut.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Mukut</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_pan_supari/ganapati-pan-supari.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_pan_supari/ganapati-pan-supari.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_pan_supari.php" style="font-size: 16px;">Check Variety</a></p>
-              </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_pan_supari.php" style="font-size: 16px;"><h4>Ganapati Pan Supari</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_pan_supari.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Pan Supari</b></p></center></a>
-          </div>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_pan_supari.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_pan_supari.php" style="font-size: 16px;">
+                                  <h4>Ganapati Pan Supari</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_pan_supari.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Pan Supari</b></p>
+                          </center>
+                      </a>
+                  </div>
 
-          <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
-            <div class="portfolio-wrap">
-              <img src="assets/img/ganapati_undir_mouse/ganapati-undir.webp" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
+                  <div class="col-lg-3 col-md-6 portfolio-item filter-ganpati">
+                      <div class="portfolio-wrap">
+                          <img src="assets/img/ganapati_undir_mouse/ganapati-undir.webp" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <!-- <a href="assets/img/silver_niranjan/silver_niranjan2.webp" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus-circle"></i></a>
                 <a href="silver_jewellery/silver_niranjan.php" title="More Details"><i class="icofont-link"></i></a> -->
 
-                <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_undir_mouse.php" style="font-size: 16px;">Check Variety</a></p>
+                              <p style="color: #ffffff;"><a href="ganpati_jewellery/ganapati_undir_mouse.php"
+                                      style="font-size: 16px;">Check Variety</a></p>
+                          </div>
+                          <div class="portfolio-info">
+                              <a href="ganpati_jewellery/ganapati_undir_mouse.php" style="font-size: 16px;">
+                                  <h4>Ganapati Undir</h4>
+                              </a>
+                              <p>Ganapati Jewellery</p>
+                          </div>
+                      </div>
+                      <a href="ganpati_jewellery/ganapati_undir_mouse.php" style="font-size: 16px;">
+                          <center>
+                              <p style="color: #e0b238;"><b>Ganapati Undir</b></p>
+                          </center>
+                      </a>
+                  </div>
+
               </div>
-              <div class="portfolio-info">
-                <a href="ganpati_jewellery/ganapati_undir_mouse.php" style="font-size: 16px;"><h4>Ganapati Undir</h4></a>
-                <p>Ganapati Jewellery</p>
-              </div>
-            </div>
-            <a href="ganpati_jewellery/ganapati_undir_mouse.php" style="font-size: 16px;"><center><p style="color: #e0b238;"><b>Ganapati Undir</b></p></center></a>
+
           </div>
 
-        </div>
+          </div>
+      </section><!-- End Portfolio Section -->
 
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team section-bg">
+      <!-- ======= Team Section ======= -->
+      <!-- <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -1521,10 +1849,10 @@ position:absolute;
 
       </div>
     </section> -->
-    <!-- End Team Section -->
+      <!-- End Team Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <!-- <section id="pricing" class="pricing section-bg">
+      <!-- ======= Pricing Section ======= -->
+      <!-- <section id="pricing" class="pricing section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -1578,117 +1906,135 @@ position:absolute;
 
       </div>
     </section> -->
-    <!-- End Pricing Section -->
+      <!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    
-    <!-- End Frequently Asked Questions Section -->
+      <!-- ======= Frequently Asked Questions Section ======= -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
+      <!-- End Frequently Asked Questions Section -->
 
-        <div class="section-title">
-          <h2 data-aos="fade-in">Contact</h2>
-          <p data-aos="fade-in"></p>
-        </div>
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+          <div class="container">
 
-        <div class="row">
-
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box" data-aos="fade-up">
-                  <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>Amrut Society, Gujarat Colony, Kothrud, Pune-38</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx">&#9742;</i>
-                  <h3>Telephone No.</h3>
-                  <p>020 2538 2115</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Whatsapp / Mob No.</h3>
-                  <p>+91 7030635555</p>
-                </div>
-              </div>
-
-              <div class="col-md-12">
-                <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                  <h3>Follow Us</h3>
-                  <div class="social-links">
-                    <a href="https://www.facebook.com/ShriKrishnaJewellersKothrud" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-                    <a href="https://instagram.com/shri.krishna.jewellers" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://g.page/r/CZ6RgBm0-OdQEAg/review" class="google-plus" target="_blank"><i class="bx bxl-google"></i></a>
-                  </div>
-                  <br><br>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-up">
               <div class="section-title">
-                <h2 data-aos="fade-in">Get In Touch With Us</h2>
-            </div>
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
+                  <h2 data-aos="fade-in">Contact</h2>
+                  <p data-aos="fade-in"></p>
               </div>
 
-              <div class="form-group">
-                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
+              <div class="row">
+
+                  <div class="col-lg-6">
+
+                      <div class="row">
+                      <div class="col-md-12">
+                              <div class="info-box" data-aos="fade-up">
+                                  <i class="bx bx-map"></i>
+                                  <h3>Our Address</h3>
+                                  <p>Amrut Society, Gujarat Colony, Kothrud, Pune-38</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                  <i class="bx bx">&#9742;</i>
+                                  <h3>Telephone No.</h3>
+                                  <p><a href="tel:02025382115">020 2538 2115</a></p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                  <i class="bx bx-phone-call"></i>
+                                  <h3>Whatsapp / Mob No.</h3>
+                                  <p><a target="_blank" href="https://wa.me/7030635555">+91 7030635555</a> | <a
+                                          target="_blank" href="https://wa.me/9021909385">+91 9021909385</a></p>
+                              </div>
+                          </div>
+
+                          <div class="col-md-6">
+                              <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                  <h3>Follow Us</h3>
+                                  <div class="social-links">
+                                      <a href="https://www.facebook.com/ShriKrishnaJewellersKothrud" class="facebook"
+                                          target="_blank"><i class="bx bxl-facebook"></i></a>
+                                      <a href="https://instagram.com/shri.krishna.jewellers" class="instagram"
+                                          target="_blank"><i class="bx bxl-instagram"></i></a>
+                                      <a href="https://g.page/r/CZ6RgBm0-OdQEAg/review" class="google-plus"
+                                          target="_blank"><i class="bx bxl-google"></i></a>
+                                  </div>
+                                  <br>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                  <i class="bx bx-envelope"></i>
+                                  <h3>Email</h3>
+                                  <p><a target="_blank"
+                                          href="mailto:support@shrikrishnajewellers.com">support@shrikrishnajewellers.com</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <div class="col-lg-6">
+
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form"
+                          data-aos="fade-up">
+                          <div class="section-title">
+                              <h2 data-aos="fade-in">Get In Touch With Us</h2>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-md-6 form-group">
+                                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                  <div class="validate"></div>
+                              </div>
+                              <div class="col-md-6 form-group">
+                                  <input type="email" class="form-control" name="email" id="email"
+                                      placeholder="Your Email" data-rule="email"
+                                      data-msg="Please enter a valid email" />
+                                  <div class="validate"></div>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone"
+                                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validate"></div>
+                          </div>
+
+                          <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validate"></div>
+                          </div>
+                          <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                              <div class="validate"></div>
+                          </div>
+                          <div class="mb-3">
+                              <div class="loading">Loading</div>
+                              <div class="error-message"></div>
+                              <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="text-center"><button type="submit">Send Message</button></div>
+                      </form>
+                  </div>
+
               </div>
 
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
           </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
+      </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
   <script>
-    $(document).ready(function(){
+$(document).ready(function() {
 
     $('#myCarousel').carousel({
-    interval: 3000,
+        interval: 3000,
     })
 
-    });
+});
   </script>
   <?php include 'footer.php';?>
-
-  
